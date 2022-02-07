@@ -1,0 +1,7 @@
+language: generic
+script:
+- bash -x test.sh
+deploy:
+  provider: releases
+ repo: krasteki/hello-world
+    tags: true
